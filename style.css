@@ -1,0 +1,46 @@
+body{
+    background-color: #131315;
+    margin: 0;
+    text-align: center;
+}
+.container{
+    height: 350px;
+    width: 350px;
+    background-color: rgb(178, 178, 86);
+    margin-top: 10%;
+    text-align: center;
+    margin-left: 40%;
+    border-radius: 40px;
+    
+}
+.DisplayTimer{
+    padding-top: 120px;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+.buttons{
+    
+    height: 40px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 18%;
+    margin: 5px;
+    font-size: 35px;
+    border-radius: 10px;
+}
+#start-btn{
+    margin-right: 24px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    
+}
+#stop-btn{
+    margin-right: 24px;
+    background-color: red;
+    border-radius: 10px;
+}
+#reset-btn{
+    background-color: orange;
+    border-radius: 10px;
+}
